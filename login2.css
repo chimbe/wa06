@@ -1,0 +1,55 @@
+
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Raleway';
+            }
+            #wrapper {
+                height: 100vh;
+                width: 100vw;
+                background-color: crimson;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            #body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #card {
+                height: 250px;
+                width: 300px;
+                background-color: whitesmoke;
+                border-radius: 10px;
+                box-shadow: 2px 2px 20px 0px white;
+                padding: 10px
+            }
+            #card-title {
+                font-weight: bold;
+                font-size: 30px;
+                text-align: center;
+                margin: 10px 0px;
+            }
+            .input-label {
+                font-size: 14px;
+            }
+            .input-con input{
+                height: 25px;
+                width: 70%;
+            }
+            #button-wrapper button{
+                background-color: black;
+                outline: none;
+                border: 0px;
+                height: 25px;
+                width: 100px;
+                color: crimson;
+                margin-top: 10px;
+                font-family: raleway;
+            }
+            #error-mess {
+                margin-top: 10px;
+                color: rgb(216, 68, 68);
+                font-size: 12px;                
+            }
